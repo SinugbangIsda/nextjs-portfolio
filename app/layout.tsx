@@ -1,13 +1,13 @@
 import './globals.css'
+import { RootLayout as ParentLayout } from '@/components'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Marcu Operario",
   description: 'This the Portfolio Website of Marcu Operario',
-}
+};
+
 
 export default function RootLayout({
   children,
@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <ParentLayout>
+      { children }
+    </ParentLayout>
   )
-}
+};
