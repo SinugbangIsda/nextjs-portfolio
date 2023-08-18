@@ -42,7 +42,7 @@ const ProjectsSection = () => {
                     <Image 
                       src = { val.thumbnail }
                       alt = { "thumbnail" + (i + 1) }
-                      className = "grayscale duration-500 transition-all transform ease-in-out cursor-pointer scale-100 hover:grayscale-0 hover:scale-125"
+                      className = "grayscale duration-500 transition-all transform ease-in-out cursor-pointer hover:grayscale-0 hover:scale-125"
                       onClick = {() => {
                         setIsModalOpen(!isModalOpen);
                         setProjectID(i);
