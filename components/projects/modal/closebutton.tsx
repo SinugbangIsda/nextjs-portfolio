@@ -19,7 +19,9 @@ const CloseButton = ({ onClose }: CloseButtonProps) => {
             onClick = { onClose }
             className = "aspect-square rounded-full p-2 text-[#8494A0] border border-[#4E5360] hover:text-black hover:bg-white hover:border-white text-xl duration-300" 
           >
-            <IoCloseSharp />
+            <span>
+              <IoCloseSharp />
+            </span>
           </button>
         </div>
       </div>
