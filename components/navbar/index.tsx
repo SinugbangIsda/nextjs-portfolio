@@ -72,6 +72,7 @@ const Navbar = () => {
                                             document.getElementById(val.id)?.scrollIntoView({ behavior: "smooth" });
                                             setActiveSection(val.id);
                                         }}
+                                        title = {"scroll-to-" + val.label }
                                     >
                                         { val.label }
                                     </a>
