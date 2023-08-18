@@ -16,7 +16,7 @@ const Scrolldown = () => {
         href = { navlinks[1].path }
         onClick = {(e) => {
           e.preventDefault();
-          document.getElementById(navlinks[0].id)?.scrollIntoView({ behavior: "smooth" });
+          document.getElementById(navlinks[1].id)?.scrollIntoView({ behavior: "smooth" });
         }}
         aria-label = { "scroll-to-" + navlinks[1].path }
       >
