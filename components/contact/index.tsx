@@ -38,7 +38,7 @@ const ContactSection = () => {
                   Get in Touch!
                 </h1>
                 <p className = "text-xl text-[#7D8590]">
-                  Ready to connect? Have a question or an idea? I'm here to listen. Whether you prefer using the form, or dropping me an email, I'm all ears. Let's bring your thoughts to life!
+                  Ready to connect? Have a question or an idea? I&apos;m here to listen. Whether you prefer using the form, or dropping me an email, I&apos;m all ears. Let&apos;s bring your thoughts to life!
                 </p>
                 { contactItems.map((val, i) => (
                   <div

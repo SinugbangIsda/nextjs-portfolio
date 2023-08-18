@@ -8,7 +8,7 @@ const Headline = () => {
   return (
     <div className = "flex flex-col sm:flex-row sm:items-center w-full ease-in-out duration-500 sm:mt-20">
         <div className = "space-y-4 w-full">
-            <h1 className = "font-bold text-5xl lg:text-7xl">Hi, I'm Marcu</h1>
+            <h1 className = "font-bold text-5xl lg:text-7xl">Hi, I&apos;m Marcu</h1>
             <p className = "text-[#7D8590] text-2xl md:text-3xl lg:text-4xl">
                 Aspiring Software Engineer from Davao City.
             </p>
