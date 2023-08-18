@@ -52,6 +52,7 @@ const Navbar = () => {
                                         document.getElementById(navlinks[0].id)?.scrollIntoView({ behavior: "smooth" });
                                         setActiveSection(navlinks[0].id);
                                     }}
+                                    title = "scroll-to-top"
                                 >
                                     <Logo />
                                 </a>
