@@ -52,7 +52,7 @@ const Navbar = () => {
                                         document.getElementById(navlinks[0].id)?.scrollIntoView({ behavior: "smooth" });
                                         setActiveSection(navlinks[0].id);
                                     }}
-                                    title = "scroll-to-top"
+                                    aria-label = "scroll-to-top"
                                 >
                                     <Logo />
                                 </a>
@@ -72,7 +72,7 @@ const Navbar = () => {
                                             document.getElementById(val.id)?.scrollIntoView({ behavior: "smooth" });
                                             setActiveSection(val.id);
                                         }}
-                                        title = {"scroll-to-" + val.label }
+                                        aria-label = {"scroll-to-" + val.label }
                                     >
                                         { val.label }
                                     </a>

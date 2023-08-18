@@ -54,7 +54,7 @@ const MobileNav = ({
                                         e.preventDefault();
                                         document.getElementById(val.id)?.scrollIntoView({ behavior: "smooth" });
                                     }}
-                                    title = { "scroll-to-" + val.label }
+                                    aria-label = { "scroll-to-" + val.label }
                                 >
                                     { val.label }
                                 </a>

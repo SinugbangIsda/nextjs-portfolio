@@ -19,7 +19,7 @@ const Headline = () => {
                         e.preventDefault();
                         document.getElementById(navlinks[3].id)?.scrollIntoView({ behavior: "smooth" });
                     }}
-                    title = "scroll-to-contact"
+                    aria-label = "scroll-to-contact"
                 >
                     <button className = "px-6 py-4 border border-[#2C3031] text-white rounded-lg font-bold w-full sm:w-auto hover:bg-white hover:text-black duration-300">
                         <span>
@@ -33,7 +33,7 @@ const Headline = () => {
                         e.preventDefault();
                         document.getElementById(navlinks[1].id)?.scrollIntoView({ behavior: "smooth" });
                     }}
-                    title = "scroll-to-about"
+                    aria-label = "scroll-to-about"
                     className = " text-white rounded-lg hover:border-white font-bold flex flex-row gap-4 items-center justify-center"
                 >
                     <span>
