@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { HeroIllustration } from '@/public';
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
+import { navlinks } from '@/constants';
 
 const Headline = () => {
   return (
