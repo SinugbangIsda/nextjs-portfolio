@@ -35,14 +35,14 @@ const ProjectModal = ({
         if (event.key === 'Escape') {
             onClose();
         }
-      };
+    };
     
     useEffect(() => {
         window.addEventListener('keydown', handleKeyPress);
         return () => {
             window.removeEventListener('keydown', handleKeyPress);
         };
-    }, []);
+    }, [ handleKeyPress ]);
 
   return (
     <>
