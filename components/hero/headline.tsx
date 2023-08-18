@@ -32,8 +32,8 @@ const Headline = () => {
                         e.preventDefault();
                         document.getElementById(navlinks[1].id)?.scrollIntoView({ behavior: "smooth" });
                     }}
+                    title = "scroll-to-about"
                     className = " text-white rounded-lg hover:border-white font-bold flex flex-row gap-4 items-center justify-center"
-                    
                 >
                     <span>
                         Learn More
