@@ -26,7 +26,7 @@ const Headline = () => {
                 <a 
                     href = { navlinks[1].path } 
                     aria-label = "scroll-to-about"
-                    className = " text-white rounded-lg hover:border-white font-bold flex flex-row gap-4 items-center justify-center"
+                    className = " text-white rounded-lg hover:text-[#7D8590] duration-300 font-bold flex flex-row gap-4 items-center justify-center"
                 >
                     <span>
                         Learn More
