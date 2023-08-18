@@ -31,8 +31,12 @@ const Headline = () => {
                     className = " text-white rounded-lg hover:border-white font-bold flex flex-row gap-4 items-center justify-center"
                     
                 >
-                    Learn More
-                    <HiOutlineArrowLongRight />
+                    <span>
+                        Learn More
+                    </span>
+                    <span>
+                        <HiOutlineArrowLongRight />
+                    </span>
                 </a>
             </div>
         </div>
