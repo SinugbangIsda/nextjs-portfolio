@@ -14,10 +14,6 @@ const Scrolldown = () => {
       </div>
       <a 
         href = { navlinks[1].path }
-        onClick = {(e) => {
-          e.preventDefault();
-          document.getElementById(navlinks[1].id)?.scrollIntoView({ behavior: "smooth" });
-        }}
         aria-label = { "scroll-to-" + navlinks[1].path }
       >
         <FaAngleDoubleDown className = "text-3xl animate-bounce duration-1000"/>

@@ -15,10 +15,6 @@ const Headline = () => {
             <div className = "flex flex-col sm:flex-row w-full gap-4">
                 <a 
                     href = { navlinks[3].path }
-                    onClick = {(e) => {
-                        e.preventDefault();
-                        document.getElementById(navlinks[3].id)?.scrollIntoView({ behavior: "smooth" });
-                    }}
                     aria-label = "scroll-to-contact"
                 >
                     <button className = "px-6 py-4 border border-[#2C3031] text-white rounded-lg font-bold w-full sm:w-auto hover:bg-white hover:text-black duration-300">
@@ -29,10 +25,6 @@ const Headline = () => {
                 </a>
                 <a 
                     href = { navlinks[1].path } 
-                    onClick = {(e) => {
-                        e.preventDefault();
-                        document.getElementById(navlinks[1].id)?.scrollIntoView({ behavior: "smooth" });
-                    }}
                     aria-label = "scroll-to-about"
                     className = " text-white rounded-lg hover:border-white font-bold flex flex-row gap-4 items-center justify-center"
                 >
