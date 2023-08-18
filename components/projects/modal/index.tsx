@@ -77,6 +77,7 @@ const ProjectModal = ({
                                     <a 
                                         href = { projects[projectID].demo }
                                         target = "_blank"
+                                        title = "demo-link"
                                         className = "px-8 py-4 rounded-full bg-[#2d68ff] text-center hover:text-black hover:bg-white hover:border-white duration-300"
                                     >
                                         <span className = "font-semibold">
@@ -88,6 +89,7 @@ const ProjectModal = ({
                                     <a 
                                         href = { projects[projectID].github }
                                         target = "_blank"
+                                        title = "githhub-link"
                                         className = "px-8 py-4 rounded-full border border-white flex flex-row justify-center items-center gap-4 hover:text-black hover:bg-white hover:border-white duration-300"
                                     >   
                                         <FaGithub className = "text-xl"/>
