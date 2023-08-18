@@ -12,11 +12,11 @@ const AboutMe = () => {
             <h2 className = "text-3xl">
                 About Me
             </h2>
-            <div className = "flex lg:flex-row flex-col item-center w-full gap-10">
+            <div className = "flex sm:flex-row flex-col item-center w-full gap-10">
                 <Image 
                     src = { GraduationPhoto }
-                    alt = ""
-                    className = "lg:w-80 w-full rounded-lg"
+                    alt = "GraduationPhoto"
+                    className = "sm:w-80 w-full rounded-lg"
                     priority
                 />
                 <div className = "w-full flex flex-col justify-between items-start space-y-4">
