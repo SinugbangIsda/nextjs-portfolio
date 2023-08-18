@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <footer className = "border-t border-[#2C3031] mt-14">
             <Container>
-                <div className = "flex items-center justify-between">
+                <div className = "flex flex-col justify-center items-center sm:flex-row sm:justify-between gap-4">
                     <span>
                         © { currentYear } by Marcu Operario.
                     </span>
