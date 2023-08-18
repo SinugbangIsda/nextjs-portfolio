@@ -27,7 +27,7 @@ const Headline = () => {
                     </button>
                 </a>
                 <a 
-                    href = "#about" 
+                    href = { navlinks[1].path } 
                     className = " text-white rounded-lg hover:border-white font-bold flex flex-row gap-4 items-center justify-center"
                     
                 >
