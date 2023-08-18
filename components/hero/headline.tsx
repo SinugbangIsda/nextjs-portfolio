@@ -28,6 +28,10 @@ const Headline = () => {
                 </a>
                 <a 
                     href = { navlinks[1].path } 
+                    onClick = {(e) => {
+                        e.preventDefault();
+                        document.getElementById(navlinks[1].id)?.scrollIntoView({ behavior: "smooth" });
+                    }}
                     className = " text-white rounded-lg hover:border-white font-bold flex flex-row gap-4 items-center justify-center"
                     
                 >
