@@ -20,6 +20,7 @@ const Footer = () => {
                                 key = { i }
                                 href = { val.path }
                                 target = "_blank"
+                                title  = "socmed-footer"
                                 className = "rounded-full aspect-square border border-[#2C3031] p-2 hover:bg-white hover:text-black duration-300 cursor-pointer"
                             >
                                 { val.icon }
