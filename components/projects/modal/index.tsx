@@ -56,13 +56,20 @@ const ProjectModal = ({
                 <div className = "m-auto max-w-6xl w-full grow bg-[#212226] p-8 space-y-8">
                     <CloseButton onClose = { onClose }/>
                     <div className = "flex flex-col items-start xl:p-16 p-2 w-full space-y-10 break-words">
-                        <div className = "flex flex-col space-y-4 w-full">
-                            <h1 className = "font-bold text-6xl">
-                                { projects[projectID].name }
-                            </h1>
-                            <span className = "text-[#7D8590] text-5xl">
-                                { projects[projectID].system }
-                            </span>
+                        <div className = "flex flex-col sm:flex-row sm:justify-between items-start sm:items-center gap-4 w-full">
+                            <div className = "flex flex-col space-y-4 w-full">
+                                <h1 className = "font-bold text-6xl">
+                                    { projects[projectID].name }
+                                </h1>
+                                <span className = "text-[#7D8590] text-5xl">
+                                    { projects[projectID].system }
+                                </span>
+                            </div>
+                            <Image 
+                                src = { projects[projectID].logo }
+                                alt = { projects[projectID].name + "Logo" }
+                                className = "hidden sm:block"
+                            />
                         </div>
                         <hr className = "border border-[#323339] w-full" />
                         <div className = "space-y-10 w-full">
