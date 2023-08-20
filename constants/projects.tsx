@@ -19,8 +19,8 @@ import {
   BugritosSignup,
   BugritosThumbnail,
   BugritosTransactions,
-  DurTectMockup,
-  DurTectThumbnail,
+  DurtectMockup,
+  DurtectThumbnail,
   ListifyHome,
   ListifyThumbnail,
   MaskUpAdmin,
@@ -37,10 +37,10 @@ import {
 
 export const projects = [
   {
-    name: "DurTect",
+    name: "Durtect",
     system: "Mobile Application",
     year: "2023",
-    thumbnail: DurTectThumbnail,
+    thumbnail: DurtectThumbnail,
     tools: [
       "ReactNative",
       "TypeScript",
@@ -53,11 +53,11 @@ export const projects = [
       "Roboflow",
       "YOLOv5"
     ],
-    description: "DurTect is a mobile application that can identify the patch canker disease on Durian trees. Using the roboflow framework, It incorporates the use of a custom trained YOLOv5 CNN Model for its disease detection process. The project aims to aid in mitigating the spread of durian diseases and improving crop protection.",
+    description: "Durtect is a mobile application that can identify the patch canker disease on Durian trees. Using the roboflow framework, It incorporates the use of a custom trained YOLOv5 CNN Model for its disease detection process. The project aims to aid in mitigating the spread of durian diseases and improving crop protection.",
     screenshots: [
       {
         label: "Durtect Mockup",
-        src: DurTectMockup
+        src: DurtectMockup
       }
     ],
     demo: "",

@@ -5,8 +5,8 @@ export { default as FramerMotionLogo } from "./framer.svg";
 export { default as HeroIllustration } from "./web-template.png";
 export { default as GraduationPhoto } from "./grad.jpg";
 
-export { default as DurTectThumbnail } from "./durtect/durtect.svg";
-export { default as DurTectMockup } from "./durtect/durtect-mockup.png";
+export { default as DurtectThumbnail } from "./durtect/durtect.svg";
+export { default as DurtectMockup } from "./durtect/durtect-mockup.png";
 
 export { default as MaskUpThumbnail } from "./maskup/maskup.svg";
 export { default as MaskUpUser } from "./maskup/maskup-user.png";
