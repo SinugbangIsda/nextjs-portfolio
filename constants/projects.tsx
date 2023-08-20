@@ -24,6 +24,7 @@ import {
   DurtectMockup,
   DurtectThumbnail,
   ListifyHome,
+  ListifyLogo,
   ListifyThumbnail,
   MaskUpAdmin,
   MaskUpThumbnail,
@@ -148,6 +149,7 @@ export const projects = [
     demo: "",
     video: "",
     github: "https://github.com/SinugbangIsda/spring-boot-reactjs-todolist",
+    logo: ListifyLogo
   },
   {
     name: "BookHive",
