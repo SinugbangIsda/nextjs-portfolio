@@ -32,12 +32,6 @@ import {
   MaskUpLogo,
   MaskUpThumbnail,
   MaskUpUser,
-  ShoppingListCreate,
-  ShoppingListHelp,
-  ShoppingListLogo,
-  ShoppingListThumbnail,
-  ShoppingListView,
-  ShoppingListViewAndDelete,
   ShortlyHome,
   ShortlyLogo,
   ShortlyThumbnail
