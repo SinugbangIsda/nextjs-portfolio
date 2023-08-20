@@ -283,41 +283,5 @@ export const projects = [
     video: "",
     github: "https://github.com/SinugbangIsda/Bugritos-XML",
     logo: BugritosLogo
-  },
-  {
-    name: "ShoppingList",
-    system: "DiscordJS Bot",
-    year: "2021",
-    thumbnail: ShoppingListThumbnail,
-    tools: [
-      "DiscordJS",
-      "JavaScript",
-      "MongoDB",
-      "ExpressJS",
-      "NodeJS"
-    ],
-    description: "A discord bot that stores, updates, displays, and deletes the shopping list set by the user.",
-    screenshots: [
-      {
-        label: "ShoppingList Help",
-        src: ShoppingListHelp
-      },
-      {
-        label: "ShoppingList Create",
-        src: ShoppingListCreate
-      },
-      {
-        label: "ShoppingList View",
-        src: ShoppingListView
-      },
-      {
-        label: "ShoppingList View and Delete",
-        src: ShoppingListViewAndDelete
-      }
-    ],
-    demo: "",
-    video: "",
-    github: "https://github.com/SinugbangIsda/shopping-list-discord-bot",
-    logo: ShoppingListLogo
-  },
+  }
 ];
