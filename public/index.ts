@@ -39,6 +39,7 @@ export { default as ShoppingListCreate } from "./shoppinglist/shoppinglist-creat
 export { default as ShoppingListHelp } from "./shoppinglist/shoppinglist-help.png";
 export { default as ShoppingListView } from "./shoppinglist/shoppinglist-view.png";
 export { default as ShoppingListViewAndDelete } from "./shoppinglist/shoppinglist-view&delete.png";
+export { default as ShoppingListLogo } from "./shoppinglist/shoppinglist-logo.svg";
 
 export { default as ShortlyThumbnail } from "./shortly/shortly.svg";
 export { default as ShortlyHome } from "./shortly/shortly-home.png";

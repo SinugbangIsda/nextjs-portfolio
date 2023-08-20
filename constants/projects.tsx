@@ -34,6 +34,7 @@ import {
   MaskUpUser,
   ShoppingListCreate,
   ShoppingListHelp,
+  ShoppingListLogo,
   ShoppingListThumbnail,
   ShoppingListView,
   ShoppingListViewAndDelete,
@@ -317,5 +318,6 @@ export const projects = [
     demo: "",
     video: "",
     github: "https://github.com/SinugbangIsda/shopping-list-discord-bot",
+    logo: ShoppingListLogo
   },
 ];
