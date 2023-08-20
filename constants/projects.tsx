@@ -19,6 +19,7 @@ import {
   BugritosSignup,
   BugritosThumbnail,
   BugritosTransactions,
+  DurtectLogo,
   DurtectMockup,
   DurtectThumbnail,
   ListifyHome,
@@ -63,6 +64,7 @@ export const projects = [
     demo: "",
     video: "/durtect/durtect-demo.mp4",
     github: "https://github.com/SinugbangIsda/react-native-durtect-v2",
+    logo: DurtectLogo
   },
   {
     name: "AnimeLib",
