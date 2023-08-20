@@ -10,6 +10,7 @@ import {
   AnimeLibWatchlist,
   BookHiveAdd,
   BookHiveHome,
+  BookHiveLogo,
   BookHiveThumbnail,
   BookHiveUpdate,
   BugritosDashboard,
@@ -182,6 +183,7 @@ export const projects = [
     demo: "",
     video: "",
     github: "https://github.com/SinugbangIsda/spring-boot-thymeleaf-bds",
+    logo: BookHiveLogo
   },
   {
     name: "Short.ly",
