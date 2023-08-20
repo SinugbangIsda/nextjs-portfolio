@@ -65,20 +65,20 @@ const ProjectModal = ({
                             </span>
                         </div>
                         <hr className = "border border-[#323339] w-full" />
-                        <div className = "space-y-10">
+                        <div className = "space-y-10 w-full">
                             <h3 className = "text-3xl">
                                 Project Description
                             </h3>
                             <p className = "text-xl text-justify">
                                 { projects[projectID].description }
                             </p>
-                            <div className = "flex flex-row items-center gap-4">
+                            <div className = "flex flex-col sm:flex-row items-center gap-4">
                                 { projects[projectID].demo && (
                                     <a 
                                         href = { projects[projectID].demo }
                                         target = "_blank"
                                         aria-label = "demo-link"
-                                        className = "px-8 py-4 rounded-full bg-[#2d68ff] text-center hover:text-black hover:bg-white hover:border-white duration-300"
+                                        className = "px-8 py-4 rounded-full bg-[#2d68ff] text-center hover:text-black hover:bg-white hover:border-white duration-300 w-full sm:w-auto"
                                     >
                                         <span className = "font-semibold">
                                             Live Preview
@@ -90,7 +90,7 @@ const ProjectModal = ({
                                         href = { projects[projectID].github }
                                         target = "_blank"
                                         aria-label = "githhub-link"
-                                        className = "px-8 py-4 rounded-full border border-white flex flex-row justify-center items-center gap-4 hover:text-black hover:bg-white hover:border-white duration-300"
+                                        className = "px-8 py-4 rounded-full border border-white flex flex-row justify-center items-center gap-4 hover:text-black hover:bg-white hover:border-white duration-300  w-full sm:w-auto"
                                     >   
                                         <FaGithub className = "text-xl"/>
                                         <span className = "font-semibold">
