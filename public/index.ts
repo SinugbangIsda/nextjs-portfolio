@@ -7,6 +7,7 @@ export { default as GraduationPhoto } from "./grad.jpg";
 
 export { default as DurtectThumbnail } from "./durtect/durtect.svg";
 export { default as DurtectMockup } from "./durtect/durtect-mockup.png";
+export { default as DurtectLogo } from "./durtect/durtect-logo.svg";
 
 export { default as MaskUpThumbnail } from "./maskup/maskup.svg";
 export { default as MaskUpUser } from "./maskup/maskup-user.png";
