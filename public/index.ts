@@ -12,6 +12,7 @@ export { default as DurtectLogo } from "./durtect/durtect-logo.svg";
 export { default as MaskUpThumbnail } from "./maskup/maskup.svg";
 export { default as MaskUpUser } from "./maskup/maskup-user.png";
 export { default as MaskUpAdmin } from "./maskup/maskup-admin.png";
+export { default as MaskUpLogo } from "./maskup/maskup-logo.svg";
 
 export { default as BugritosThumbnail } from "./bugritos/bugritos.svg";
 export { default as BugritosDashboard } from "./bugritos/bugritos-dashboard.png";

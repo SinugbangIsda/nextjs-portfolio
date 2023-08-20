@@ -28,6 +28,7 @@ import {
   ListifyLogo,
   ListifyThumbnail,
   MaskUpAdmin,
+  MaskUpLogo,
   MaskUpThumbnail,
   MaskUpUser,
   ShoppingListCreate,
@@ -233,6 +234,7 @@ export const projects = [
     demo: "",
     video: "",
     github: "",
+    logo: MaskUpLogo
   },
   {
     name: "Bugrito's",
