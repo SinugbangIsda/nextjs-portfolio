@@ -125,6 +125,7 @@ const ProjectModal = ({
                                     controls
                                     width = { 1280 }
                                     className = "h-auto"
+                                    autoPlay
                                 >
                                     <source 
                                         src = { projects[projectID].video }
