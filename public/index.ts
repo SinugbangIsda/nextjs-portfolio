@@ -22,6 +22,7 @@ export { default as BugritosProfile } from "./bugritos/bugritos-profile.png";
 export { default as BugritosSignin } from "./bugritos/bugritos-signin.png";
 export { default as BugritosSignup } from "./bugritos/bugritos-signup.png";
 export { default as BugritosTransactions } from "./bugritos/bugritos-transactions.png";
+export { default as BugritosLogo } from "./bugritos/bugritos-logo.svg";
 
 export { default as AnimeLibThumbnail } from "./animelib/animelib.svg";
 export { default as AnimeLibDashboard } from "./animelib/animelib-dashboard.png";

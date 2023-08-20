@@ -15,6 +15,7 @@ import {
   BookHiveUpdate,
   BugritosDashboard,
   BugritosEmployees,
+  BugritosLogo,
   BugritosProducts,
   BugritosProfile,
   BugritosSignin,
@@ -280,6 +281,7 @@ export const projects = [
     demo: "",
     video: "",
     github: "https://github.com/SinugbangIsda/Bugritos-XML",
+    logo: BugritosLogo
   },
   {
     name: "ShoppingList",
