@@ -30,6 +30,7 @@ export { default as AnimeLibProfile } from "./animelib/animelib-profile.png";
 export { default as AnimeLibSignin } from "./animelib/animelib-signup.png";
 export { default as AnimeLibSignup } from "./animelib/animelib-signup.png";
 export { default as AnimeLibWatchlist } from "./animelib/animelib-watchlist.png";
+export { default as AnimeLibLogo } from "./animelib/animelib-logo.svg";
 
 export { default as ShoppingListThumbnail } from "./shoppinglist/shoppinglist.svg";
 export { default as ShoppingListCreate } from "./shoppinglist/shoppinglist-create.png";
