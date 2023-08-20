@@ -61,7 +61,7 @@ const ProjectModal = ({
                                 <h1 className = "font-bold text-6xl">
                                     { projects[projectID].name }
                                 </h1>
-                                <span className = "text-[#7D8590] text-5xl">
+                                <span className = "text-[#7D8590] text-4xl">
                                     { projects[projectID].system }
                                 </span>
                             </div>
