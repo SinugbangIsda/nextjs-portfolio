@@ -36,6 +36,7 @@ import {
   ShoppingListView,
   ShoppingListViewAndDelete,
   ShortlyHome,
+  ShortlyLogo,
   ShortlyThumbnail
 } from "@/public";
 
@@ -208,6 +209,7 @@ export const projects = [
     ],
     demo: "https://shortlyapp.vercel.app/",
     github: "https://github.com/SinugbangIsda/mern-url-shortener",
+    logo: ShortlyLogo
   },
   {
     name: "MaskUp",

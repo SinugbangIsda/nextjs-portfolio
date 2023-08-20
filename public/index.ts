@@ -40,6 +40,7 @@ export { default as ShoppingListViewAndDelete } from "./shoppinglist/shoppinglis
 
 export { default as ShortlyThumbnail } from "./shortly/shortly.svg";
 export { default as ShortlyHome } from "./shortly/shortly-home.png";
+export { default as ShortlyLogo } from "./shortly/shortly-logo.svg";
 
 export { default as BookHiveThumbnail } from "./bookhive/bookhive.svg";
 export { default as BookHiveHome } from "./bookhive/bookhive-home.png";
