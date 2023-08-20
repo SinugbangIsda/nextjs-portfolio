@@ -2,6 +2,7 @@ import {
   AnimeLibDashboard,
   AnimeLibForgotPassword,
   AnimeLibInformation,
+  AnimeLibLogo,
   AnimeLibProfile,
   AnimeLibSignin,
   AnimeLibSignup,
@@ -120,6 +121,7 @@ export const projects = [
     demo: "",
     video: "",
     github: "https://github.com/SinugbangIsda/spring-boot-ddd-animelib",
+    logo: AnimeLibLogo
   },
   {
     name: "Listify",
