@@ -227,7 +227,7 @@ export const projects = [
         src: MaskUpAdmin
       }
     ],
-    demo: "",
+    demo: "https://xd.adobe.com/view/8c8f5cf9-c157-4e1b-8da8-6bc2c4d85350-d9dc/screen/a40dcc5e-7f3f-4ca4-9a52-8dd780989484?fullscreen",
     video: "",
     github: "",
     logo: MaskUpLogo
