@@ -20,7 +20,7 @@ const AboutMe = () => {
                     priority
                 />
                 <div className = "w-full flex flex-col justify-between items-start space-y-4">
-                    <p className = "text-xl text-justify ">
+                    <p className = "text-xl text-justify">
                         My name is Marcu Pelayo L. Operario. I&apos;m an aspiring Software Engineer who is committed to expanding my expertise in software development concepts and methodologies. I recently graduated with a Bachelor&apos;s Degree in Computer Science from Mapúa Malayan Colleges Mindanao. I&apos;m excited to join a team and contribute to developing high-quality software solutions.
                     </p>
                     <p className = "text-xl">
