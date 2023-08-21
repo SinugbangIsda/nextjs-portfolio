@@ -45,11 +45,7 @@ export const projects = [
     thumbnail: DurtectThumbnail,
     tools: [
       "ReactNative",
-      "TypeScript",
-      "Redux Toolkit (RTK)",
-      "Tailwind React Native Classnames",
       "Flask",
-      "Python",
       "PyTorch",
       "Firebase",
       "Roboflow",
@@ -74,11 +70,7 @@ export const projects = [
     thumbnail: AnimeLibThumbnail,
     tools: [
       "ReactJS",
-      "ViteJS",
-      "TypeScript",
-      "Redux Toolkit (RTK)",
       "ChakraUI",
-      "Java",
       "Spring Boot",
       "MyBatis-Plus",
       "MyBatisPlus-Plus",
@@ -130,10 +122,7 @@ export const projects = [
     thumbnail: ListifyThumbnail,
     tools: [
       "ReactJS",
-      "ViteJS",
-      "TypeScript",
       "TailwindCSS",
-      "Java",
       "Spring Boot",
       "MongoDB",
       "Project Lombok",
@@ -158,7 +147,6 @@ export const projects = [
     tools: [
       "Thymeleaf",
       "TailwindCSS",
-      "Java",
       "Spring Boot",
       "Spring Data JPA",
       "MySQL"
@@ -190,8 +178,6 @@ export const projects = [
     thumbnail: ShortlyThumbnail,
     tools: [
       "ReactJS",
-      "ViteJS",
-      "TypeScript",
       "TailwindCSS",
       "MongoDB",
       "ExpressJS",
