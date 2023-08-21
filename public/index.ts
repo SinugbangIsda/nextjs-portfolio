@@ -43,7 +43,3 @@ export { default as BookHiveHome } from "./bookhive/bookhive-home.png";
 export { default as BookHiveAdd } from "./bookhive/bookhive-add.png";
 export { default as BookHiveUpdate } from "./bookhive/bookhive-update.png";
 export { default as BookHiveLogo } from "./bookhive/bookhive-logo.svg";
-
-export { default as ListifyThumbnail } from "./listify/listify.svg";
-export { default as ListifyHome } from "./listify/listify-home.png";
-export { default as ListifyLogo } from "./listify/listify-logo.svg";

@@ -25,9 +25,6 @@ import {
   DurtectLogo,
   DurtectMockup,
   DurtectThumbnail,
-  ListifyHome,
-  ListifyLogo,
-  ListifyThumbnail,
   MaskUpAdmin,
   MaskUpLogo,
   MaskUpThumbnail,
@@ -109,29 +106,6 @@ export const projects = [
     video: "",
     github: "https://github.com/SinugbangIsda/spring-boot-ddd-animelib",
     logo: AnimeLibLogo
-  },
-  {
-    name: "Listify",
-    system: "Web Application",
-    year: "2023",
-    thumbnail: ListifyThumbnail,
-    tools: [
-      "ReactJS",
-      "TailwindCSS",
-      "Spring Boot",
-      "MongoDB"
-    ],
-    description: "A full-stack application that utilizes the Spring Boot framework on the backend and React.js on the frontend to create a simple, yet functional todo list. The application allows users to create, read, update, and delete todo items in a user-friendly interface.",
-    screenshots: [
-      {
-        label: "Listify Home",
-        src: ListifyHome
-      }
-    ],
-    demo: "",
-    video: "",
-    github: "https://github.com/SinugbangIsda/spring-boot-reactjs-todolist",
-    logo: ListifyLogo
   },
   {
     name: "BookHive",
