@@ -44,7 +44,7 @@ export const projects = [
     year: "2023",
     thumbnail: DurtectThumbnail,
     tools: [
-      "ReactNative",
+      "React Native",
       "Flask",
       "PyTorch",
       "Firebase",
