@@ -72,12 +72,7 @@ export const projects = [
       "ReactJS",
       "ChakraUI",
       "Spring Boot",
-      "MyBatis-Plus",
-      "MyBatisPlus-Plus",
-      "Project Lombok",
-      "Apache Shiro",
-      "MySQL",
-      "Liquibase"
+      "MySQL"
     ],
     description: "AnimeLib is an anime catalogue of people's favourite animes. Every user has a Watchlist where they can add animes they are interested in.",
     screenshots: [
@@ -124,8 +119,7 @@ export const projects = [
       "ReactJS",
       "TailwindCSS",
       "Spring Boot",
-      "MongoDB",
-      "Project Lombok",
+      "MongoDB"
     ],
     description: "A full-stack application that utilizes the Spring Boot framework on the backend and React.js on the frontend to create a simple, yet functional todo list. The application allows users to create, read, update, and delete todo items in a user-friendly interface.",
     screenshots: [
@@ -148,7 +142,6 @@ export const projects = [
       "Thymeleaf",
       "TailwindCSS",
       "Spring Boot",
-      "Spring Data JPA",
       "MySQL"
     ],
     description: "This is a full-stack web application for storing and managing book information",
