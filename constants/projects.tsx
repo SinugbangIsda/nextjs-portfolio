@@ -2,6 +2,7 @@ import {
   AnimeLibDashboard,
   AnimeLibForgotPassword,
   AnimeLibInformation,
+  AnimeLibLogo,
   AnimeLibProfile,
   AnimeLibSignin,
   AnimeLibSignup,
@@ -9,60 +10,55 @@ import {
   AnimeLibWatchlist,
   BookHiveAdd,
   BookHiveHome,
+  BookHiveLogo,
   BookHiveThumbnail,
   BookHiveUpdate,
   BugritosDashboard,
   BugritosEmployees,
+  BugritosLogo,
   BugritosProducts,
   BugritosProfile,
   BugritosSignin,
   BugritosSignup,
   BugritosThumbnail,
   BugritosTransactions,
-  DurTectMockup,
-  DurTectThumbnail,
-  ListifyHome,
-  ListifyThumbnail,
+  DurtectLogo,
+  DurtectMockup,
+  DurtectThumbnail,
   MaskUpAdmin,
+  MaskUpLogo,
   MaskUpThumbnail,
   MaskUpUser,
-  ShoppingListCreate,
-  ShoppingListHelp,
-  ShoppingListThumbnail,
-  ShoppingListView,
-  ShoppingListViewAndDelete,
   ShortlyHome,
+  ShortlyLogo,
   ShortlyThumbnail
 } from "@/public";
 
 export const projects = [
   {
-    name: "DurTect",
+    name: "Durtect",
     system: "Mobile Application",
     year: "2023",
-    thumbnail: DurTectThumbnail,
+    thumbnail: DurtectThumbnail,
     tools: [
-      "ReactNative",
-      "TypeScript",
-      "Redux Toolkit (RTK)",
-      "Tailwind React Native Classnames",
+      "React Native",
       "Flask",
-      "Python",
       "PyTorch",
       "Firebase",
       "Roboflow",
       "YOLOv5"
     ],
-    description: "DurTect is a mobile application that can identify the patch canker disease on Durian trees. Using the roboflow framework, It incorporates the use of a custom trained YOLOv5 CNN Model for its disease detection process. The project aims to aid in mitigating the spread of durian diseases and improving crop protection.",
+    description: "Durtect is a mobile application that can identify the patch canker disease on Durian trees. Using the roboflow framework, It incorporates the use of a custom trained YOLOv5 CNN Model for its disease detection process. The project aims to aid in mitigating the spread of durian diseases and improving crop protection.",
     screenshots: [
       {
         label: "Durtect Mockup",
-        src: DurTectMockup
+        src: DurtectMockup
       }
     ],
     demo: "",
     video: "/durtect/durtect-demo.mp4",
     github: "https://github.com/SinugbangIsda/react-native-durtect-v2",
+    logo: DurtectLogo
   },
   {
     name: "AnimeLib",
@@ -71,18 +67,9 @@ export const projects = [
     thumbnail: AnimeLibThumbnail,
     tools: [
       "ReactJS",
-      "ViteJS",
-      "TypeScript",
-      "Redux Toolkit (RTK)",
       "ChakraUI",
-      "Java",
       "Spring Boot",
-      "MyBatis-Plus",
-      "MyBatisPlus-Plus",
-      "Project Lombok",
-      "Apache Shiro",
-      "MySQL",
-      "Liquibase"
+      "MySQL"
     ],
     description: "AnimeLib is an anime catalogue of people's favourite animes. Every user has a Watchlist where they can add animes they are interested in.",
     screenshots: [
@@ -118,32 +105,7 @@ export const projects = [
     demo: "",
     video: "",
     github: "https://github.com/SinugbangIsda/spring-boot-ddd-animelib",
-  },
-  {
-    name: "Listify",
-    system: "Web Application",
-    year: "2023",
-    thumbnail: ListifyThumbnail,
-    tools: [
-      "ReactJS",
-      "ViteJS",
-      "TypeScript",
-      "TailwindCSS",
-      "Java",
-      "Spring Boot",
-      "MongoDB",
-      "Project Lombok",
-    ],
-    description: "A full-stack application that utilizes the Spring Boot framework on the backend and React.js on the frontend to create a simple, yet functional todo list. The application allows users to create, read, update, and delete todo items in a user-friendly interface.",
-    screenshots: [
-      {
-        label: "Listify Home",
-        src: ListifyHome
-      }
-    ],
-    demo: "",
-    video: "",
-    github: "https://github.com/SinugbangIsda/spring-boot-reactjs-todolist",
+    logo: AnimeLibLogo
   },
   {
     name: "BookHive",
@@ -153,9 +115,7 @@ export const projects = [
     tools: [
       "Thymeleaf",
       "TailwindCSS",
-      "Java",
       "Spring Boot",
-      "Spring Data JPA",
       "MySQL"
     ],
     description: "This is a full-stack web application for storing and managing book information",
@@ -176,6 +136,7 @@ export const projects = [
     demo: "",
     video: "",
     github: "https://github.com/SinugbangIsda/spring-boot-thymeleaf-bds",
+    logo: BookHiveLogo
   },
   {
     name: "Short.ly",
@@ -184,8 +145,6 @@ export const projects = [
     thumbnail: ShortlyThumbnail,
     tools: [
       "ReactJS",
-      "ViteJS",
-      "TypeScript",
       "TailwindCSS",
       "MongoDB",
       "ExpressJS",
@@ -200,6 +159,7 @@ export const projects = [
     ],
     demo: "https://shortlyapp.vercel.app/",
     github: "https://github.com/SinugbangIsda/mern-url-shortener",
+    logo: ShortlyLogo
   },
   {
     name: "MaskUp",
@@ -220,9 +180,10 @@ export const projects = [
         src: MaskUpAdmin
       }
     ],
-    demo: "",
+    demo: "https://xd.adobe.com/view/8c8f5cf9-c157-4e1b-8da8-6bc2c4d85350-d9dc/screen/a40dcc5e-7f3f-4ca4-9a52-8dd780989484?fullscreen",
     video: "",
     github: "",
+    logo: MaskUpLogo
   },
   {
     name: "Bugrito's",
@@ -268,40 +229,6 @@ export const projects = [
     demo: "",
     video: "",
     github: "https://github.com/SinugbangIsda/Bugritos-XML",
-  },
-  {
-    name: "ShoppingList",
-    system: "DiscordJS Bot",
-    year: "2021",
-    thumbnail: ShoppingListThumbnail,
-    tools: [
-      "DiscordJS",
-      "JavaScript",
-      "MongoDB",
-      "ExpressJS",
-      "NodeJS"
-    ],
-    description: "A discord bot that stores, updates, displays, and deletes the shopping list set by the user.",
-    screenshots: [
-      {
-        label: "ShoppingList Help",
-        src: ShoppingListHelp
-      },
-      {
-        label: "ShoppingList Create",
-        src: ShoppingListCreate
-      },
-      {
-        label: "ShoppingList View",
-        src: ShoppingListView
-      },
-      {
-        label: "ShoppingList View and Delete",
-        src: ShoppingListViewAndDelete
-      }
-    ],
-    demo: "",
-    video: "",
-    github: "https://github.com/SinugbangIsda/shopping-list-discord-bot",
-  },
+    logo: BugritosLogo
+  }
 ];

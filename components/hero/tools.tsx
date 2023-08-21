@@ -37,8 +37,8 @@ const PoweredBy = () => {
             <p className = "text-[#6E7681] text-lg">
                 Web portfolio powered by
             </p>
-            </div>
-            <div className = "flex flex-row justify-around items-center w-full">
+        </div>
+        <div className = "flex flex-row justify-around items-center w-full">
             { stack.map((val, i) => (
                 <Image 
                     src = { val.image }

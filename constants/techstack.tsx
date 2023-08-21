@@ -1,6 +1,4 @@
 import { 
-    FaPython,
-    FaJava,
     FaNodeJs
 } from "react-icons/fa";
 import { 
@@ -9,10 +7,7 @@ import {
 } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { 
-    SiCsharp,
     SiTailwindcss,
-    SiSpringboot,
-    SiFlask,
     SiMongodb
 } from "react-icons/si";
 import { 
@@ -30,18 +25,6 @@ export const techstack = [
         icon: <BiLogoTypescript />
     },
     {
-        label: "Python",
-        icon: <FaPython />
-    },
-    {
-        label: "C#",
-        icon: <SiCsharp />
-    },
-    {
-        label: "Java",
-        icon: <FaJava />
-    },
-    {
         label: "ReactJS",
         icon: <RiReactjsFill />
     },
@@ -52,14 +35,6 @@ export const techstack = [
     {
         label: "TailwindCSS",
         icon: <SiTailwindcss />
-    },
-    {
-        label: "Spring Boot",
-        icon: <SiSpringboot />
-    },
-    {
-        label: "Flask",
-        icon: <SiFlask />
     },
     {
         label: "NodeJS",

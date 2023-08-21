@@ -12,18 +12,18 @@ const AboutMe = () => {
             <h2 className = "text-3xl">
                 About Me
             </h2>
-            <div className = "flex sm:flex-row flex-col item-center w-full gap-10">
+            <div className = "flex md:flex-row flex-col item-center w-full gap-10">
                 <Image 
                     src = { GraduationPhoto }
                     alt = "GraduationPhoto"
-                    className = "sm:w-80 w-full rounded-lg"
+                    className = "md:w-96 w-full rounded-lg"
                     priority
                 />
-                <div className = "w-full flex flex-col justify-between items-start space-y-4">
-                    <p className = "text-xl text-justify ">
+                <div className = "flex flex-col justify-between items-start space-y-4">
+                    <p className = "text-lg md:text-xl text-justify">
                         My name is Marcu Pelayo L. Operario. I&apos;m an aspiring Software Engineer who is committed to expanding my expertise in software development concepts and methodologies. I recently graduated with a Bachelor&apos;s Degree in Computer Science from Mapúa Malayan Colleges Mindanao. I&apos;m excited to join a team and contribute to developing high-quality software solutions.
                     </p>
-                    <p className = "text-xl">
+                    <p className = "text-lg md:text-xl">
                         Here are some technologies that I have used in various projects:
                     </p>
                     <ul className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
@@ -32,7 +32,7 @@ const AboutMe = () => {
                                 key = { i }
                                 className = "flex flex-row items-center gap-3"
                             >
-                                <span className = "text-2xl">
+                                <span className = "text-xl md:text-2xl">
                                     { val.icon }
                                 </span>
                                 <span className = "text-md">
