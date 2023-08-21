@@ -77,7 +77,7 @@ const ProjectModal = ({
                             <h3 className = "text-3xl">
                                 Project Description
                             </h3>
-                            <p className = "text-xl text-justify">
+                            <p className = "text-xl text-justify text-[#7D8590]">
                                 { projects[projectID].description }
                             </p>
                             <div className = "sm:flex sm:flex-row justify-start items-center gap-1.5 grid grid-cols-2">
