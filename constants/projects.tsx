@@ -8,11 +8,6 @@ import {
   AnimeLibSignup,
   AnimeLibThumbnail,
   AnimeLibWatchlist,
-  BookHiveAdd,
-  BookHiveHome,
-  BookHiveLogo,
-  BookHiveThumbnail,
-  BookHiveUpdate,
   BugritosDashboard,
   BugritosEmployees,
   BugritosLogo,
@@ -106,37 +101,6 @@ export const projects = [
     video: "",
     github: "https://github.com/SinugbangIsda/spring-boot-ddd-animelib",
     logo: AnimeLibLogo
-  },
-  {
-    name: "BookHive",
-    system: "Web Application",
-    year: "2023",
-    thumbnail: BookHiveThumbnail,
-    tools: [
-      "Thymeleaf",
-      "TailwindCSS",
-      "Spring Boot",
-      "MySQL"
-    ],
-    description: "This is a full-stack web application for storing and managing book information",
-    screenshots: [
-      {
-        label: "BookHive Home",
-        src: BookHiveHome
-      },
-      {
-        label: "BookHive Add",
-        src: BookHiveAdd
-      },
-      {
-        label: "BookHive Home",
-        src: BookHiveUpdate
-      }
-    ],
-    demo: "",
-    video: "",
-    github: "https://github.com/SinugbangIsda/spring-boot-thymeleaf-bds",
-    logo: BookHiveLogo
   },
   {
     name: "Short.ly",
