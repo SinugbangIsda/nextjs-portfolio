@@ -11,6 +11,7 @@ import { projects } from '@/constants';
 import Image from 'next/image';
 import { FaGithub } from 'react-icons/fa';
 import CloseButton from './closebutton';
+import { Pill } from '@/components';
 
 interface ProjectModalProps {
     onClose: () => void;
@@ -79,6 +80,15 @@ const ProjectModal = ({
                             <p className = "text-xl text-justify">
                                 { projects[projectID].description }
                             </p>
+                            <div className = "sm:flex sm:flex-row justify-start items-center gap-1.5 grid grid-cols-2">
+                                { projects[projectID].tools.map((val, i) =>(
+                                    <Pill 
+                                        key = { i }
+                                    >
+                                        { val }
+                                    </Pill>
+                                ))}
+                            </div>
                             <div className = "flex flex-col sm:flex-row items-center gap-4">
                                 { projects[projectID].demo && (
                                     <a 
@@ -133,21 +143,6 @@ const ProjectModal = ({
                                     />
                                 </video>
                             )}
-                        </div>
-                        <div className = "space-y-10">
-                            <h3 className = "text-3xl">
-                                Tools and Frameworks used
-                            </h3>
-                            <ul className = "px-5">
-                                { projects[projectID].tools.map((val, i) =>(
-                                    <li 
-                                        key = { i }
-                                        className = "w-full list-disc text-xl"
-                                    >
-                                        { val }
-                                    </li>
-                                ))}
-                            </ul>
                         </div>
                     </div>
                 </div>
