@@ -17,7 +17,7 @@ const Headline = () => {
                     href = { navlinks[3].path }
                     onClick = {(e) => {
                         e.preventDefault();
-                        document.getElementById(navlinks[1].id)?.scrollIntoView({ behavior: "smooth" });
+                        document.getElementById(navlinks[3].id)?.scrollIntoView({ behavior: "smooth" });
                     }}
                     aria-label = "scroll-to-contact"
                 >
