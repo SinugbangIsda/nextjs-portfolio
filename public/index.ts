@@ -37,9 +37,3 @@ export { default as AnimeLibLogo } from "./animelib/animelib-logo.svg";
 export { default as ShortlyThumbnail } from "./shortly/shortly.svg";
 export { default as ShortlyHome } from "./shortly/shortly-home.png";
 export { default as ShortlyLogo } from "./shortly/shortly-logo.svg";
-
-export { default as BookHiveThumbnail } from "./bookhive/bookhive.svg";
-export { default as BookHiveHome } from "./bookhive/bookhive-home.png";
-export { default as BookHiveAdd } from "./bookhive/bookhive-add.png";
-export { default as BookHiveUpdate } from "./bookhive/bookhive-update.png";
-export { default as BookHiveLogo } from "./bookhive/bookhive-logo.svg";
