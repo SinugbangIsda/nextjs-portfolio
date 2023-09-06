@@ -6,7 +6,7 @@ export { default as HeroIllustration } from "./web-template.png";
 export { default as GraduationPhoto } from "./grad.jpg";
 
 export { default as DurtectThumbnail } from "./durtect/durtect.svg";
-export { default as DurtectMockup } from "./durtect/durtect-mockup.svg";
+export { default as DurtectMockup } from "./durtect/durtect-mockup.png";
 export { default as DurtectLogo } from "./durtect/durtect-logo.svg";
 
 export { default as MaskUpThumbnail } from "./maskup/maskup.svg";
@@ -37,9 +37,3 @@ export { default as AnimeLibLogo } from "./animelib/animelib-logo.svg";
 export { default as ShortlyThumbnail } from "./shortly/shortly.svg";
 export { default as ShortlyHome } from "./shortly/shortly-home.png";
 export { default as ShortlyLogo } from "./shortly/shortly-logo.svg";
-
-export { default as BookHiveThumbnail } from "./bookhive/bookhive.svg";
-export { default as BookHiveHome } from "./bookhive/bookhive-home.png";
-export { default as BookHiveAdd } from "./bookhive/bookhive-add.png";
-export { default as BookHiveUpdate } from "./bookhive/bookhive-update.png";
-export { default as BookHiveLogo } from "./bookhive/bookhive-logo.svg";

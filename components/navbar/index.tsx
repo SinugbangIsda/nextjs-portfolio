@@ -63,7 +63,7 @@ const Navbar = () => {
                             { navlinks.map((val, i) => (
                                 <li 
                                     key = { i }
-                                    className = {`font-bold ${activeSection === val.id ? "text-[#36d7b7]" : "text-white"}`}
+                                    className = {`font-bold ${activeSection === val.id ? "text-white" : "text-[#4C4B51] hover:text-white"}`}
                                 >
                                     <a 
                                         href = { val.path }
