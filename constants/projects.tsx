@@ -52,7 +52,7 @@ export const projects = [
     ],
     demo: "",
     video: "/durtect/durtect-demo.mp4",
-    github: "https://github.com/SinugbangIsda/react-native-durtect-v2",
+    github: "https://github.com/SinugbangIsda/react-native-durtect",
     logo: DurtectLogo
   },
   {
