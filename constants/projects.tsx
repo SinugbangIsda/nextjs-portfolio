@@ -26,10 +26,32 @@ import {
   MaskUpUser,
   ShortlyHome,
   ShortlyLogo,
-  ShortlyThumbnail
+  ShortlyThumbnail,
+  HighDefThumbnail,
+  HighDefLogo
 } from "@/public";
 
 export const projects = [
+  {
+    name: "HighDef",
+    system: "Web Application",
+    year: "2023",
+    thumbnail: HighDefThumbnail,
+    tools: [
+      "ReactJS",
+      "TailwindCSS",
+      "DaisyUI",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB"
+    ],
+    description: "Coming Soon!",
+    screenshots: [],
+    demo: "https://highdef.vercel.app/",
+    video: "",
+    github: "https://github.com/SinugbangIsda/mern-highdef-ims",
+    logo: HighDefLogo
+  },
   {
     name: "Durtect",
     system: "Mobile Application",
@@ -52,7 +74,7 @@ export const projects = [
     ],
     demo: "",
     video: "/durtect/durtect-demo.mp4",
-    github: "https://github.com/SinugbangIsda/react-native-durtect-v2",
+    github: "https://github.com/SinugbangIsda/react-native-durtect",
     logo: DurtectLogo
   },
   {

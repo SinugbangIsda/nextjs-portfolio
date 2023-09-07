@@ -37,3 +37,6 @@ export { default as AnimeLibLogo } from "./animelib/animelib-logo.svg";
 export { default as ShortlyThumbnail } from "./shortly/shortly.svg";
 export { default as ShortlyHome } from "./shortly/shortly-home.png";
 export { default as ShortlyLogo } from "./shortly/shortly-logo.svg";
+
+export { default as HighDefThumbnail } from  "./highdef/highdef.svg";
+export { default as HighDefLogo } from "./highdef/highdef-logo.svg";
