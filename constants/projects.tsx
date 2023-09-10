@@ -28,7 +28,20 @@ import {
   ShortlyLogo,
   ShortlyThumbnail,
   HighDefThumbnail,
-  HighDefLogo
+  HighDefLogo,
+  HighDefSignupDark,
+  HighDefSignupLight,
+  HighDefSigninDark,
+  HighDefSigninLight,
+  HighDefForgotDark,
+  HighDefForgotLight,
+  HighDefDashboardDark,
+  HighDefDashboardLight,
+  HighDefTransactionsDark,
+  HighDefTransactionsLight,
+  HighDefSelectedTransactionDark,
+  HighDefSelectedTransactionLight,
+  HighDefInvoice
 } from "@/public";
 
 export const projects = [
@@ -45,8 +58,61 @@ export const projects = [
       "ExpressJS",
       "MongoDB"
     ],
-    description: "Coming Soon!",
-    screenshots: [],
+    description: "A web application that generates customer invoices for the dumptruck hauling business of HighDef Supply & Services Corp.",
+    screenshots: [
+      {
+        label: "HighDef Signup (dark)",
+        src: HighDefSignupDark
+      },
+      {
+        label: "HighDef Signup (light)",
+        src: HighDefSignupLight
+      },
+      {
+        label: "HighDef Signin (dark)",
+        src: HighDefSigninDark
+      },
+      {
+        label: "HighDef Signin (light)",
+        src: HighDefSigninLight
+      },
+      {
+        label: "HighDef Forgot Password (dark)",
+        src: HighDefForgotDark
+      },
+      {
+        label: "HighDef Forgot Password (light)",
+        src: HighDefForgotLight
+      },
+      {
+        label: "HighDef Dashboard (dark)",
+        src: HighDefDashboardDark
+      },
+      {
+        label: "HighDef Dashboard (light)",
+        src: HighDefDashboardLight
+      },
+      {
+        label: "HighDef Transactions (dark)",
+        src: HighDefTransactionsDark
+      },
+      {
+        label: "HighDef Transactions (light)",
+        src: HighDefTransactionsLight
+      },
+      {
+        label: "HighDef Selected Transaction (dark)",
+        src: HighDefSelectedTransactionDark
+      },
+      {
+        label: "HighDef Selected Transaction (light)",
+        src: HighDefSelectedTransactionLight
+      },
+      {
+        label: "HighDef Invoice PDF",
+        src: HighDefInvoice
+      }
+    ],
     demo: "https://highdef.vercel.app/",
     video: "",
     github: "https://github.com/SinugbangIsda/mern-highdef-ims",

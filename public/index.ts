@@ -40,3 +40,23 @@ export { default as ShortlyLogo } from "./shortly/shortly-logo.svg";
 
 export { default as HighDefThumbnail } from  "./highdef/highdef.svg";
 export { default as HighDefLogo } from "./highdef/highdef-logo.svg";
+export { default as HighDefSigninDark } from "./highdef/highdef-signin (dark).png";
+export { default as HighDefSigninLight } from "./highdef/highdef-signin (light).png";
+export { default as HighDefSignupDark } from "./highdef/highdef-signup (dark).png";
+export { default as HighDefSignupLight } from "./highdef/highdef-signup (light).png";
+export { default as HighDefForgotDark } from "./highdef/highdef-forgot (dark).png";
+export { default as HighDefForgotLight } from "./highdef/highdef-forgot (light).png";
+export { default as HighDefDashboardDark } from "./highdef/highdef-dashboard (dark).png";
+export { default as HighDefDashboardLight } from "./highdef/highdef-dashboard (light).png";
+export { default as HighDefTransactionsDark } from "./highdef/highdef-transactions (dark).png";
+export { default as HighDefTransactionsLight } from "./highdef/highdef-transactions (light).png";
+export { default as HighDefSelectedTransactionDark } from "./highdef/highdef-selected (dark).png";
+export { default as HighDefSelectedTransactionLight } from "./highdef/highdef-selected (light).png";
+export { default as HighDefInvoice } from "./highdef/highdef-invoice.png";
+
+
+
+
+
+
+
